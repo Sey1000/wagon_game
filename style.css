@@ -34,3 +34,8 @@
   margin: 10px 30px;
   padding: 10px 30px;
 }
+
+.instruction-container {
+  font-size: 2em;
+  margin: 0 100px;
+}
