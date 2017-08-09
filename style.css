@@ -1,0 +1,36 @@
+/* Your board style here */
+.racer_table {
+  display: flex;
+  justify-content: center;
+}
+
+.racer_table td {
+  height: 8vw;
+  width: 8vw;
+  border: 1px solid rgba(100,100,100,0.1);
+}
+
+.racer_table td:last-child {
+  background-color: #01295F;
+}
+
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#player1_race td.active {
+  background-image: url("images/player_1.png");
+}
+#player2_race td.active {
+  background-image: url("images/player_2.png");
+}
+
+.button-container {
+  text-align: center;
+}
+
+.btn-with-margin {
+  margin: 10px 30px;
+  padding: 10px 30px;
+}
